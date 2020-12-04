@@ -44,8 +44,8 @@ export class LoginComponent implements OnInit {
           console.log(user);
           const newLoginAction = login({ user });
 
-          console.log("New Login Action:", newLoginAction)
-          debugger;
+          // console.log("New Login Action:", newLoginAction)
+          // debugger;
           // when value of property has same name as of value of property
           this.store.dispatch(newLoginAction)
 
